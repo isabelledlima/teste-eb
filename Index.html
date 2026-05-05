@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entre Bandeiras</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f4f4f4;
+    }
+
+    header{
+      background:black;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    nav{
+      background:#d60000;
+      padding:12px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    section{
+      padding:40px 20px;
+    }
+
+    .banner{
+      text-align:center;
+      background:white;
+    }
+
+    .produtos{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .card{
+      background:white;
+      width:250px;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.2);
+      text-align:center;
+    }
+
+    .card h3{
+      margin-top:0;
+    }
+
+    .preco{
+      color:#d60000;
+      font-weight:bold;
+      font-size:20px;
+    }
+
+    footer{
+      background:black;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Entre Bandeiras</h1>
+    <p>Loja de Camisetas</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#produtos">Produtos</a>
+  </nav>
+
+  <!-- TELA 1 -->
+  <section class="banner" id="inicio">
+    <h2>Camisetas exclusivas para torcedores</h2>
+    <p>
+      Estilo, conforto e paixão pelo esporte.
+    </p>
+  </section>
+
+  <!-- TELA 2 -->
+  <section id="produtos">
+    <h2 style="text-align:center;">Nossos Produtos</h2>
+
+    <div class="produtos">
+
+      <div class="card">
+        <h3>Camiseta Vermelha</h3>
+        <p>Modelo esportivo confortável.</p>
+        <p class="preco">R$ 79,90</p>
+      </div>
+
+      <div class="card">
+        <h3>Camiseta Preta</h3>
+        <p>Modelo casual premium.</p>
+        <p class="preco">R$ 89,90</p>
+      </div>
+
+      <div class="card">
+        <h3>Camiseta Branca</h3>
+        <p>Estilo moderno e leve.</p>
+        <p class="preco">R$ 69,90</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    ©️ Entre Bandeiras
+  </footer>
+
+</body>
+</html>
